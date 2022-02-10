@@ -1,0 +1,58 @@
+body {
+	background-color:#eee;
+}
+
+header {
+	background-color: #D68910;
+	border-radius: 20px;
+	width: 100%;
+}
+
+header h1 {
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.boton1 {
+	background: #D68910;
+	border: 2px solid #D68910;
+	border-radius: 6px;
+	color: #fff;
+	font-size: 30px;
+	padding: 7px 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.boton2 {
+	background: transparent;
+	border: 2px solid #D68910;
+	border-radius: 6px;
+	color: #1e2939;
+	font-size: 30px;
+	padding: 7px 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 30px;
+}
+
+.inputText {
+	width: 30%;
+	height: 10%;
+	font-size: 25px;
+	padding: 12px;
+}

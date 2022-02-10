@@ -1,0 +1,43 @@
+<meta charset="utf-8">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel=StyleSheet href="css/styles.css">
+
+<head>
+    <title>Ahorcado</title>
+    <link rel="shortcut icon" href="images/ahorcado.png">
+</head>
+
+<body>
+	<center>
+		<header><h1 id="titulo">Juego del Ahorcado</h1></header>
+
+		<img src="images/juego-del-ahorcado.png" id="imagen" width="15%"
+     height="30%">
+
+		<div id="inicio">
+			<p><button id="jugar" class="boton1">Iniciar juego</button></p>
+
+			<p><input id = "input" class="inputText" placeholder="Escriba una nueva palabra"></p>
+			<p><button id="agregar" class="boton2">Agregar palabra</button></p>
+		</div>
+
+		<div id="juego">
+			<canvas  id="canvas" width="1200" height="800"></canvas>
+		</div>
+
+		<script>
+			var palabras = ['ALURA', 'ORACLE', 'JAVASCRIPT', 'HTML', 'CSS', 'PROGRAMACION', 'CHALLENGE'];
+			document.getElementById('canvas').style.display = 'none';
+		</script>
+		<script src="js/ahorcado.js"></script>
+		<script src="js/funciones.js"></script>
+
+	    <footer>
+	    	Desarrollado por Ingrid Mendoza  &copy; 2022
+	    </footer>
+    </center>
+
+</body>
