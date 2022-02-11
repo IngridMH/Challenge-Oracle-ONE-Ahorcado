@@ -53,13 +53,16 @@ function iniciarJuego(){
 		} else {
 			pincel.fillStyle = "red";
 			pincel.fillText("Fin del juego",base,altura*0.25);
+			
+			pincel.font = '20px serif';
+			pincel.fillStyle = "black";
+			pincel.fillText("La palabra era: "+palabra,base,altura*0.35);
 		}
 
 		document.getElementById('titulo').style.display = 'block';
 		document.getElementById('jugar').style.display = 'block';
 		document.getElementById('input').style.display = 'block';
 		document.getElementById('agregar').style.display = 'block';
-		//document.getElementById('imagen').style.display = 'block';
 	} 
 
 	function letraCorrecta(j) {
@@ -73,7 +76,7 @@ function iniciarJuego(){
 		pincel.font = '30px serif';
 		pincel.textAlign = 'right';
 		pincel.fillText(pruebas[pruebas.length-1], x, altura*0.5);
-		x -= 30;		//pruebas[i]
+		x -= 30;		
 	}
 
 	function dibujarHorca(num) {
